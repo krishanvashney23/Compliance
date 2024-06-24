@@ -1,0 +1,50 @@
+.my_flx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+}
+
+.my_form {
+    padding: 30px;
+    background-color: white;
+    box-shadow: rgb(145 147 152) 0px 0px 11px -2px; 
+       border-radius: 10px;
+}
+
+.login_head {
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+}
+
+.user_label {
+    color: #354665;
+    font-weight: 600;
+}
+
+.submit_bot1 {
+    height: 38px;
+    color: white;
+    background-color: #0052CC;
+    border: none;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 500;
+}
+.my_form_signup
+{
+    padding: 30px;
+    background-color: white;
+    box-shadow: rgb(145 147 152) 0px 0px 11px -2px;
+        border-radius: 10px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.my_flx_sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 83vh; */
+}

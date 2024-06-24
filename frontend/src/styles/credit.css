@@ -1,0 +1,186 @@
+.myback_bot {
+    margin-top: 40px;
+}
+
+.credit_head {
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.credit_head2 {
+    font-size: 28px;
+    color: black;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.creditCard1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 25px;
+    box-shadow: rgb(145 147 152) 0px 0px 11px -2px;
+        border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.creditCard1:hover {
+    transition: 0.7s;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.credit_icon {
+    height: 45px;
+    width: 55px;
+    background-color: #D3E1F6;
+    color: #0052CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.credit_heading {
+    font-size: 35px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.credit_desc {
+    font-size: 35px;
+    color: #0052CC;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.creditFilter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.fsearch-container {
+    position: relative;
+    width: 400px;
+    margin-top: 20px;
+    z-index: 10;
+}
+
+.fsearch-input {
+    width: 100%;
+    padding: 10px 55px 10px 20px;
+    border-radius: 35px;
+    border: 1px solid #ccc;
+    color: rgb(60, 57, 57);
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+}
+
+.fsearch-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 190;
+    font-size: 16px;
+    color: white;
+}
+
+.fsrch_icn {
+    background-color: #004bbb;
+    color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.fsrch {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.credit_table {
+    box-shadow: rgb(145 147 152) 0px 0px 11px -2px;
+    padding: 15px 20px 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    padding: 20px !important;
+}
+
+.under_filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Dropdown.css */
+.dropdown {
+    position: relative;
+    width: 200px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dropdown-header {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-arrow {
+    margin-left: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .dropdown-arrow.open {
+    transform: rotate(180deg);
+  }
+  
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    z-index: 1000;
+    max-height: 200px; /* Added a max height */
+    overflow-y: auto; /* Added scroll for overflow */
+  }
+  
+  .dropdown-option {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f0f0f0;
+  }
+  

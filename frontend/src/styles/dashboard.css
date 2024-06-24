@@ -1,0 +1,166 @@
+.back_color {
+  background: linear-gradient(to right, #000000 0%, #0052cc 58%);
+  padding: 50px 0px 0px 0px;
+  letter-spacing: 0.5px;
+
+}
+
+.dashboard_head {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: white;
+  text-align: center;
+}
+
+.dashboard_desc {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: white;
+  text-align: center;
+}
+
+.search-container {
+  position: relative;
+  width: 400px;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+.search-input {
+  width: 100%;
+  padding: 13px 55px 13px 20px;
+  border-radius: 35px;
+  border: 1px solid #ccc;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 190;
+  font-size: 20px;
+  color: white;
+}
+
+.srch_icn {
+  background-color: #004bbb;
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.srch {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.main-container {
+  background-color: white;
+  border-radius: 100px 100px 0px 0px;
+  padding: 70px 0px 50px 0px;
+  margin-top: 55px;
+
+}
+
+.cards_head {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+
+.tab_card {
+  padding: 15px;
+  box-shadow: rgb(145 147 152) 0px 0px 11px -2px;
+  margin-top: 25px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.tab_card:hover {
+  transition: 0.7s;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.card1_lock {
+  height: 40px;
+  width: 50px;
+  color: #0052CC;
+  background-color: #d4d4d4a2;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 0px 8px 0px 0px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_icn {
+  height: 50px;
+  width: 50px;
+  background-color: #0052CC;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.tab_inner_head {
+  font-size: 21px;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.tab_content {
+  margin-top: 10px;
+  font-size: 16px;
+
+}
+
+.tab_view {
+  height: 36px;
+  color: white;
+  background-color: #0052CC;
+  border: none;
+  border-radius: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* font-weight: 500; */
+  font-size: 15px;
+  letter-spacing: 0.8px;
+}
+
+.my_bot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.modalback {
+  background-color: #0052cc;
+  color: white;
+}
+
+.btn-close {
+  font-size: 12px;
+  color: white;
+}
+
+.password_form {
+  padding: 10px 10px 20px 10px;
+}
