@@ -104,6 +104,32 @@ const Dashboard = () => {
                   </div>
                 </div>
               </div>
+              <div className='second_head1'>
+                <p className='cards_head mb-0'>
+                  Tab's heading
+                </p>
+              </div>
+              <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6'>
+                <Link href="/reportone"> <div className='tab_card' >
+                  <div className='card1_lock'>
+                    <i className="ri-lock-fill"></i>
+                  </div>
+                  <div className='first_icn'>
+                    <i className="ri-user-line"></i>
+                  </div>
+                  <div className='tab_content'>
+                    <p className='tab_inner_head'>
+                      Report 1 (EC)
+                    </p>
+                    <p className='tab_inner_desc'>
+                      Lorem ipsum dolor sit amet, find of a adipiscing
+                    </p>
+                    <div className='my_bot'>
+                      <button className='tab_view'>View</button>
+                    </div>
+                  </div>
+                </div></Link>
+              </div>
               <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6'>
                 <div className='tab_card' >
                   <div className='card1_lock'>
@@ -114,7 +140,7 @@ const Dashboard = () => {
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
-                      Lorem Ip
+                      Report 2 (RWEC)
                     </p>
                     <p className='tab_inner_desc'>
                       Lorem ipsum dolor sit amet, find of a adipiscing
@@ -135,7 +161,7 @@ const Dashboard = () => {
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
-                      Lorem Ip
+                      Report 3 (AR)
                     </p>
                     <p className='tab_inner_desc'>
                       Lorem ipsum dolor sit amet, find of a adipiscing
@@ -156,7 +182,7 @@ const Dashboard = () => {
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
-                      Lorem Ip
+                      Report 4 (MR)
                     </p>
                     <p className='tab_inner_desc'>
                       Lorem ipsum dolor sit amet, find of a adipiscing
@@ -177,28 +203,7 @@ const Dashboard = () => {
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
-                      Lorem Ip
-                    </p>
-                    <p className='tab_inner_desc'>
-                      Lorem ipsum dolor sit amet, find of a adipiscing
-                    </p>
-                    <div className='my_bot'>
-                      <button className='tab_view'>View</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6'>
-                <div className='tab_card' >
-                  <div className='card1_lock'>
-                    <i className="ri-lock-fill"></i>
-                  </div>
-                  <div className='first_icn'>
-                    <i className="ri-user-line"></i>
-                  </div>
-                  <div className='tab_content'>
-                    <p className='tab_inner_head'>
-                      Lorem Ip
+                      Report 5 (ROW)
                     </p>
                     <p className='tab_inner_desc'>
                       Lorem ipsum dolor sit amet, find of a adipiscing
@@ -235,7 +240,7 @@ const Dashboard = () => {
                       <label for="exampleInputPassword1" className="form-label user_label">Password</label>
                       <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Enter Password" />
                     </div>
-                    <Link href="/dashboard"> <button type="submit" className="submit_bot1">Log In</button></Link>
+                    <Link href="/tabFive"> <button type="submit" className="submit_bot1">Log In</button></Link>
                   </form>
                 </div>
               </div>

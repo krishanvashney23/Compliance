@@ -1,0 +1,60 @@
+.filtersearch
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.a_buton > .Add_icon {
+    height: 42px;
+    width: 42px;
+    background-color: #0052CC;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+.report_profile{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+
+.report_editdlt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.reportedit_icon {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: #0052CC;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(180, 181, 184, 0.522) 0px 0px 11px -2px;
+    cursor: pointer;
+    border: none;
+    /* box-shadow: rgb(145 147 152) 0px 0px 11px -2px; */
+}
+.reportdlt_icon {
+    height: 34px;
+    border: none;
+    width: 34px;
+    background-color: #0052CC;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: rgba(180, 181, 184, 0.522) 0px 0px 11px -2px;
+}

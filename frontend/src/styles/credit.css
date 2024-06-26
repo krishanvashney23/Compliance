@@ -24,9 +24,9 @@
     align-items: flex-start;
     gap: 30px;
     padding: 25px;
-    box-shadow: rgb(145 147 152) 0px 0px 11px -2px;
+    box-shadow: rgb(145 147 152 / 40%) 0px 0px 11px -2px;
         border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .creditCard1:hover {
@@ -68,7 +68,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 5px;
-    margin-top: 15px;
+    margin-top: 7px;
 }
 
 .fsearch-container {
@@ -114,7 +114,7 @@
 }
 
 .credit_table {
-    box-shadow: rgb(145 147 152) 0px 0px 11px -2px;
+    box-shadow: rgb(145 147 152 / 40%) 0px 0px 11px -2px;
     padding: 15px 20px 10px 20px;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -131,8 +131,8 @@ td {
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
+    margin-top:15px
 }
-
 /* Dropdown.css */
 .dropdown {
     position: relative;
@@ -170,8 +170,15 @@ td {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
     z-index: 1000;
-    max-height: 200px; /* Added a max height */
-    overflow-y: auto; /* Added scroll for overflow */
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .dropdown-list.drop-up {
+    top: auto;
+    bottom: 100%;
+    border-radius: 4px 4px 0 0;
+    border-bottom: none;
   }
   
   .dropdown-option {
@@ -184,3 +191,26 @@ td {
     background-color: #f0f0f0;
   }
   
+  .under_head
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+  }
+  .page-link
+  {
+    border-radius: 50%;
+    margin-right: 10px;
+    height:40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page-item:first-child .page-link, .page-item:last-child .page-link {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}

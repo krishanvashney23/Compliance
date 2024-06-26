@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 0.7px;
 }
 .dop
 {
@@ -23,6 +24,11 @@ a, Link{
   text-decoration: none;
 }
 
+input, .form-select
+{
+  border: 1px solid #A6BCDA !important;
+  font-size: 15px !important;
+}
 /* Setting a default font for the entire application */
 
 

@@ -4,12 +4,12 @@ import { useState } from 'react';
 import { Dropdown, } from 'react';
 import { useRef } from 'react';
 import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
-import CreditCard from './CreditCard/Component';
-import CreditTable from './CreditTable/Component';
+// import CreditCard from './CreditCard/Component';
+import ReportOnetable from './ReportOnetable/Component';
 import CreditFilter from './CreditFilter/Component';
 // import "../../styles/component.css";
 
-const Credit = ({ options, placeholder }) => {
+const Reportone = ({ options, placeholder }) => {
 
 
   const [isOpen, setIsOpen] = useState(false);
@@ -55,13 +55,13 @@ const Credit = ({ options, placeholder }) => {
             </button>
           </div>
         </Link>
-        <CreditCard />
+        
         <CreditFilter />
-        <CreditTable />
+        <ReportOnetable />
       </div>
 
     </>
   );
 }
 
-export default Credit;
+export default Reportone;
