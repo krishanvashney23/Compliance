@@ -10,11 +10,11 @@ const Credit = () => {
 
   return (
     <>
-      <div className='creditFilter mt-3'>
+      <div className='reportone_flx mt-3'>
         <div className='filterData'>
           <p class="credit_head2">Report 1 (EC)</p>
         </div>
-        <div className='filtersearch'>
+        <div className='reportone_search'>
           <form action="#">
             <center><div className="fsearch-container">
               <input type="text" className="fsearch-input" placeholder="Search..." />

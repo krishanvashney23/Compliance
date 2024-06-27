@@ -91,7 +91,7 @@ const Profile = () => {
                   <label for="exampleInputEmail1" className="form-label user_label">Email Id</label>
                   <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" />
                 </div>
-                <button type="submit" className="submit_bot1">Sign Up</button>
+                <button type="submit" className="submit_bot1">Save</button>
               </form>
             </div>
           </div>

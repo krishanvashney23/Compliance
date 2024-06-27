@@ -58,3 +58,35 @@
     cursor: pointer;
     box-shadow: rgba(180, 181, 184, 0.522) 0px 0px 11px -2px;
 }
+.reportone_flx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 7px;
+}
+.reportone_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+@media(max-width:600px)
+{
+    .reportone_flx {
+        display: block !important;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-top: 7px;
+    }
+    .reportone_search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+
+}

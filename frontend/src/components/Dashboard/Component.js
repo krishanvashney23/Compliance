@@ -6,12 +6,14 @@ const Dashboard = () => {
   return (
     <>
       <div className='back_color'>
+        <div className='dash_content'>
         <p className='dashboard_head'>
           Lorem ipsum dolor sit amet, consectetur sop
         </p>
         <p className='dashboard_desc'>
           Excepteur sint occaecat cupidatat non proident, sunt in culpa
         </p>
+        </div>
         <form action="#">
           <center><div className="search-container">
             <input type="text" className="search-input" placeholder="Search..." />

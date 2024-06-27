@@ -18,7 +18,7 @@ const Signup = () => {
                 </div>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label user_label">Email Id</label>
-                  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email"/>
+                  <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Id"/>
                 </div>
                 <div className="mb-3">
                   <label for="exampleInputEmail1" className="form-label user_label">Phone No.</label>

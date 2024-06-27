@@ -48,3 +48,13 @@
     align-items: center;
     /* height: 83vh; */
 }
+
+@media(max-width:600px)
+{
+    .my_flx {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+}

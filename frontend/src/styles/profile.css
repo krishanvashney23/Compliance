@@ -112,5 +112,34 @@
         
         margin-top: 25px;
     }
+    .back {
+        height: 38px;
+        background-color: #0052CC;
+        color: white;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 15px;
+        border: none;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+    }
+    .lefticon {
+        font-size: 19px;
+    }
+    .submit_bot1 {
+        height: 38px;
+        color: white;
+        background-color: #0052CC;
+        border: none;
+        border-radius: 8px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 500;
+        font-size: 14px;
+    }
   }
   

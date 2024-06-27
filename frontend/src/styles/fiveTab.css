@@ -141,6 +141,7 @@
     padding: 25px;
     box-shadow: rgba(169, 170, 174, 0.538) 0px 0px 11px -2px;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 .addform_bot1 {
     height: 38px;

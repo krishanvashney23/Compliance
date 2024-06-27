@@ -1,216 +1,272 @@
 .myback_bot {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .credit_head {
-    font-size: 28px;
-    color: black;
-    font-weight: 600;
-    margin-top: 25px;
-    margin-bottom: 25px;
+  font-size: 28px;
+  color: black;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .credit_head2 {
-    font-size: 28px;
-    color: black;
-    font-weight: 600;
-    margin-top: 8px;
-    margin-bottom: 8px;
+  font-size: 28px;
+  color: black;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .creditCard1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 30px;
-    padding: 25px;
-    box-shadow: rgb(145 147 152 / 40%) 0px 0px 11px -2px;
-        border-radius: 8px;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 25px;
+  box-shadow: rgb(145 147 152 / 40%) 0px 0px 11px -2px;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 .creditCard1:hover {
-    transition: 0.7s;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: 0.7s;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 
 }
 
 .credit_icon {
-    height: 45px;
-    width: 55px;
-    background-color: #D3E1F6;
-    color: #0052CC;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    font-size: 22px;
-    margin-top: 10px;
+  height: 45px;
+  width: 55px;
+  background-color: #D3E1F6;
+  color: #0052CC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 22px;
+  margin-top: 10px;
 }
 
 .credit_heading {
-    font-size: 35px;
-    color: black;
-    font-weight: 400;
-    margin-bottom: 8px;
+  font-size: 35px;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 8px;
 }
 
 .credit_desc {
-    font-size: 35px;
-    color: #0052CC;
-    font-weight: 600;
-    margin-bottom: 0px;
+  font-size: 35px;
+  color: #0052CC;
+  font-weight: 600;
+  margin-bottom: 0px;
 }
 
 .creditFilter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 7px;
 }
 
 .fsearch-container {
-    position: relative;
-    width: 400px;
-    margin-top: 20px;
-    z-index: 10;
+  position: relative;
+  width: 400px;
+  margin-top: 20px;
+  z-index: 10;
 }
 
 .fsearch-input {
-    width: 100%;
-    padding: 10px 55px 10px 20px;
-    border-radius: 35px;
-    border: 1px solid #ccc;
-    color: rgb(60, 57, 57);
-    font-size: 16px;
-    outline: none;
-    background-color: transparent;
+  width: 100%;
+  padding: 10px 55px 10px 20px;
+  border-radius: 35px;
+  border: 1px solid #ccc;
+  color: rgb(60, 57, 57);
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
 }
 
 .fsearch-icon {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-    z-index: 190;
-    font-size: 16px;
-    color: white;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 190;
+  font-size: 16px;
+  color: white;
 }
 
 .fsrch_icn {
-    background-color: #004bbb;
-    color: white;
-    padding: 7px;
-    border-radius: 50%;
+  background-color: #004bbb;
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
 }
 
 .fsrch {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .credit_table {
-    box-shadow: rgb(145 147 152 / 40%) 0px 0px 11px -2px;
-    padding: 15px 20px 10px 20px;
-    margin-top: 40px;
-    margin-bottom: 30px;
+  box-shadow: rgb(145 147 152 / 40%) 0px 0px 11px -2px;
+  padding: 15px 20px 10px 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 th,
 td {
-    padding: 20px !important;
+  padding: 20px !important;
 }
 
 .under_filters {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-top:15px
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px
 }
+
 /* Dropdown.css */
 .dropdown {
+  position: relative;
+  width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown-header {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-arrow {
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-list.drop-up {
+  top: auto;
+  bottom: 100%;
+  border-radius: 4px 4px 0 0;
+  border-bottom: none;
+}
+
+.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+.under_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.page-link {
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+@media(max-width:600px) {
+  .fsearch-container {
     position: relative;
-    width: 200px;
-    font-family: Arial, sans-serif;
+    width: 100%;
+    margin-top: 20px;
+    z-index: 10;
   }
-  
-  .dropdown-header {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .dropdown-arrow {
-    margin-left: 10px;
-    transition: transform 0.3s;
-  }
-  
-  .dropdown-arrow.open {
-    transform: rotate(180deg);
-  }
-  
-  .dropdown-list {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    border: 1px solid #ccc;
-    border-top: none;
-    background-color: #fff;
-    border-radius: 0 0 4px 4px;
-    z-index: 1000;
-    max-height: 200px;
-    overflow-y: auto;
-  }
-  
-  .dropdown-list.drop-up {
-    top: auto;
-    bottom: 100%;
-    border-radius: 4px 4px 0 0;
-    border-bottom: none;
-  }
-  
-  .dropdown-option {
-    padding: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .dropdown-option:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .under_head
-  {
-    display: flex;
+
+  .filtersearch {
+    display: block !important;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    /* gap: 15px; */
   }
-  .page-link
-  {
+
+  .creditFilter {
+    display: block !important;
+  }
+
+  .tabCard5 {
+    padding: 20px;
+    box-shadow: rgba(169, 170, 174, 0.538) 0px 0px 11px -2px;
+    border-radius: 8px;
+    margin-bottom: 25px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .tab5_content>.Tab5_desc {
+    font-size: 15px !important;
+    color: black;
+    font-weight: 400;
+  }
+
+  .addprofile5 {
+    height: 80px !important;
+    width: 80px !important;
     border-radius: 50%;
-    margin-right: 10px;
-    height:40px;
-    width:40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    object-fit: cover;
   }
-  .page-item:first-child .page-link, .page-item:last-child .page-link {
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+
+  .addprofile_img {
+    height: 110px !important;
+    width: 110px !important;
+  }
+
+  .addicon5 {
+    position: absolute;
+    bottom: -10px;
+    right: 33px;
+    font-size: 16px;
+  }
 }
