@@ -8,6 +8,8 @@ import '@/styles/dashboard.css';
 import '@/styles/credit.css';
 import '@/styles/fiveTab.css';
 import '@/styles/reportone.css';
+import '@/styles/reportTwo.css';
+import '@/styles/reportThree.css';
 import BootstrapJSLoader from '@/components/BootstrapJsLoader';
 
 function MyApp({ Component, pageProps }) {

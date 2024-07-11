@@ -1,0 +1,44 @@
+.report2_buton > .Add_icon {
+    height: 45px;
+    width: auto;
+    background-color: #0052CC;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 160px;
+    border:none;
+}
+
+.cntr_txt
+{
+    text-align: center;
+}
+
+.report2> table{
+    border:2px solid black;
+     border-collapse: collapse;
+     width:100%;
+     font-size: 15px;
+}
+
+    .report2> th,td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 5px;
+    }
+    .report2> .variable-text {
+        background-color: #ffffff;
+    }
+    .report2> .highlight {
+        background-color: yellow;
+    }
+    .report2> .table-responsive {
+        overflow-x: auto;
+    }
+    .report2> .total-row td {
+        font-weight: bold;
+    }

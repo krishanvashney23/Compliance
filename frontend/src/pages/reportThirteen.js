@@ -3,14 +3,17 @@ import React from 'react';
 import Navbar from '../components/Navbar/Component';
 import Credit from '../components/Credit/Component';
 import Footer from '../components/Footer/Component';
+import ReportThirteen from '@/components/ReportThirteen/Component';
 
-const Home = () => {
+const Component = () => {
   return (
     <div>
       <Navbar />
-      <Credit />
+      <ReportThirteen />
+      
+      {/* <h1>Welcome to the Home Page</h1> */}
     </div>
   );
 }
 
-export default Home;
+export default Component;
