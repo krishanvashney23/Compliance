@@ -269,4 +269,13 @@ td {
     right: 33px;
     font-size: 16px;
   }
+  .credit_table {
+    box-shadow: rgb(145 147 152 / 40%) 0px 0px 11px -2px;
+    padding: 15px 20px 10px 20px;
+    margin-top: 29px;
+    margin-bottom: 30px;
+}
+.myback_bot {
+  margin-top: 27px;
+}
 }

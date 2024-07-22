@@ -96,7 +96,10 @@
 .rights {
     margin-bottom: 0px;
 }
-
+.logo1
+{
+    height:50px;
+}
 /* home */
 @media(max-width:580px) {
     .log_in {

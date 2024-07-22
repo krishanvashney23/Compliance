@@ -32,7 +32,7 @@ const Signup = () => {
                   <label for="exampleInputPassword1" className="form-label user_label">Confirm Password</label>
                   <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Enter Confirm Password" />
                 </div>
-                    <div id="emailHelp" className="form-text mb-3">Don't Have an Account? <Link href="/signup">Sign Up</Link></div>
+                    <div id="emailHelp" className="form-text mb-3">Already Have an Account? <Link href="/login">Log in</Link></div>
                 
                 <button type="submit" className="submit_bot1">Sign Up</button>
               </form>

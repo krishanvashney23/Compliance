@@ -8,6 +8,9 @@ const Navbar = () => {
       <div className='nav_space'>
         <div className='space1'>
           <Link href="/" className='dop'><h3>Logo</h3></Link> 
+          {/* <Link href="/" className='dop'>
+          <img src="img/logo.jpg"  className='img-fluid logo1'/>
+          </Link>  */}
         </div>
         <div className='space2'>
           <Link href="/login" className='dop'><button className='log_in'>Log In</button></Link>

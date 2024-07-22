@@ -42,3 +42,90 @@
     .report2> .total-row td {
         font-weight: bold;
     }
+    .fixed-text {
+        background-color: #f2f2f2;
+    }
+    .variable-text {
+        background-color: #ffffff;
+        text-align:left;
+        font-size:12px;
+        font-weight:300;
+    }
+    .highlight {
+        background-color: yellow;
+    }
+    .table-responsive {
+        overflow-x: auto;
+    }
+    .total-row td {
+        font-weight: bold;
+    }
+    
+    .flat_th {
+      text-align:center;
+    }
+    
+    .flat_text td {
+      text-align:center;
+    }
+    .variable_text {
+      font-size:12px;
+      width:140px;
+      text-align:left;
+    }
+    .vrt{
+        border: 1px solid black;
+        writing-mode: vertical-lr; 
+        transform: rotate(180deg);
+        text-align:center;
+        white-space:nowrap;
+        /* height:120px; */
+    }
+    .mid_small{
+        width:100px;
+    }
+    th, td {
+        border:1px solid black;
+        /* text-align: center; */
+    }
+    .vrt_min{
+        writing-mode: vertical-lr; 
+        transform: rotate(180deg);
+        text-align:center;
+        white-space:wrap;
+        height:auto;
+
+    }
+    .report2> th, td {
+        border: 1px solid black;
+        text-align: left;
+        padding: 5px;
+    }
+    .table4_color
+    {
+        background-color:#FDE9D9 !important;
+    }
+    .table4_color1
+    {
+        background-color:#EBF1DE !important;
+    }
+    .table4_color2
+    {
+        background-color:yellow !important;
+    }
+    .table-bordered
+    {
+        border:2px solid rgb(24, 23, 23);
+    }
+    @media(max-width:800px)
+    {
+        .report2_buton > .Add_icon {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            height: 38px;
+            width:auto;
+            padding-left:20px;
+            padding-right:20px;
+        }
+    }

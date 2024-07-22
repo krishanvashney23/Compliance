@@ -28,7 +28,7 @@ const Credit = () => {
       <div className='credit_table'>
         <div className='tabl '>
           <div className='table-responsive '>
-            <table class="table table-striped table-hover">
+            <table class="table table-bordered">
               <thead>
                 <tr className='m_ain'>
                   <th>Sr. no.</th>

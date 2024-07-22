@@ -91,7 +91,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-todo-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -117,7 +117,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-file-text-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -139,7 +139,7 @@ const Dashboard = () => {
                       <i className="ri-lock-fill"></i>
                     </div>
                     <div className='first_icn'>
-                      <i className="ri-user-line"></i>
+                      <i className="ri-text-snippet"></i>
                     </div>
                     <div className='tab_content'>
                       <p className='tab_inner_head'>
@@ -162,7 +162,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-text-block"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -185,7 +185,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-file-chart-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -208,7 +208,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-file-upload-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -231,7 +231,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-file-reduce-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -254,7 +254,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-profile-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -277,7 +277,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-article-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -300,7 +300,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-slideshow-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -323,7 +323,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-file-reduce-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -346,7 +346,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-article-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -369,7 +369,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-input-method-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -392,7 +392,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-article-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -415,7 +415,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-device-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -438,7 +438,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-file-reduce-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
@@ -461,7 +461,7 @@ const Dashboard = () => {
                     <i className="ri-lock-fill"></i>
                   </div>
                   <div className='first_icn'>
-                    <i className="ri-user-line"></i>
+                    <i className="ri-todo-line"></i>
                   </div>
                   <div className='tab_content'>
                     <p className='tab_inner_head'>
