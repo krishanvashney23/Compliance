@@ -1,8 +1,11 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Link from 'next/link';
+import { Modal, Button, Form } from 'react-bootstrap';
 // import "../../styles/component.css";
 
 const Dashboard = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <>
       <div className='back_color'>
@@ -86,7 +89,7 @@ const Dashboard = () => {
                 </div></Link>
               </div>
               <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6'>
-                <div className='tab_card' data-bs-toggle="modal" data-bs-target="#enterpassword">
+                <div className='tab_card' onClick={() => setShowModal(true)}>
                   <div className='card1_lock'>
                     <i className="ri-lock-fill"></i>
                   </div>
@@ -483,33 +486,39 @@ const Dashboard = () => {
         </div>
 
         {/* <!-- The Modal --> */}
-        <div className="modal fade" id="enterpassword">
-          <div className="modal-dialog modal-md">
-            <div className="modal-content">
+        <Modal show={showModal} onHide={() => setShowModal(false)} size="md">
+        <Modal.Header className="modalback">
+          <Modal.Title>Unlock The screen</Modal.Title>
+          <button
+           type="button"
+           className="btn-close"
+           aria-label="Close"
+           onClick={() => setShowModal(false)}>
+          </button>
+        </Modal.Header>
+        <Modal.Body>
+          <Form>
 
               {/* <!-- Modal Header --> */}
-              <div className="modal-header modalback">
-                <h5 className="modal-title">Unlock The screen</h5>
-                <button type="button" className="btn-close" data-bs-dismiss="modal">
 
-                </button>
-              </div>
-
-              {/* <!-- Modal body --> */}
-              <div className="modal-body">
                 <div className='password_form'>
-                  <form action="#" method='POST'>
                     <div class="mb-3">
                       <label for="exampleInputPassword1" className="form-label user_label">Password</label>
                       <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Enter Password" />
                     </div>
-                    <Link href="/tabFive"> <button type="submit" className="submit_bot1">Log In</button></Link>
-                  </form>
+                    {/* <Link href="/tabFive"> <button type="submit" className="submit_bot1">Log In</button></Link> */}
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Link href="/tabFive">
+            <Button className="submit_bot1">
+            Log In
+            </Button>
+            </Link>
+        </Modal.Footer>
+      </Modal>
+      
 
 
 
